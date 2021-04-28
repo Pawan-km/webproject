@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    line-height: 150%;
+}
+
+.serc1{
+    padding: 1px 1px;
+    margin: 2px 2px;
+}
+.topb{
+    margin-top: 65px;
+    font-size: 60px;
+    margin-left: 53px;
+}
+
+
+.pa{
+    margin: 39px 50px;
+}
+
+.new{
+    font-size: 44px;
+    padding: 10px;
+}
+.scene{
+    width: 94%;
+    height: 85vh;
+}
+
+.serc2{
+    text-align: center;
+}
+.bott{
+    padding: 1px 40px;
+    margin-bottom: 33px;
+    
+}
+
+.new, .topb{
+    font-family: 'Roboto Slab', serif;
+}

@@ -1,0 +1,23 @@
+extends base.pug
+
+block scripts 
+    script(src="../static/index.js")
+
+block style 
+    style 
+        include ../static/style.css
+        include ../static/aboutStyle.css
+
+
+block content 
+    h1.head About Me
+    div.age
+        div.hd.graph Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ipsum libero aut, odit sapiente molestias at optio! Pariatur, in? Nisi eum harum error cupiditate repellendus debitis alias voluptatem velit, dolores possimus, est ipsum nostrum expedita aspernatur, quis enim.
+            div.hd Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore est dolore culpa ab itaque voluptatem earum possimus, similique magnam tempore?
+
+            div.hd Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae rerum quisquam maxime ab deleniti quidem assumenda ullam sequi est eum corrupti fugit culpa, nihil, optio iure libero voluptatibus, in eveniet. Sed accusamus incidunt nobis molestiae nostrum dolores provident? Asperiores, odio!
+
+            div.hd Lorem ipsum dolor sit, amet consectetur adipisicing elit. At laudantium modi repudiandae animi aspernatur 
+            div.ad Contact Me:
+            div.cont makelifetechnical@gmail.com
+        img.me(src="../static/img/aboutme.webp", alt="")

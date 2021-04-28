@@ -1,0 +1,86 @@
+doctype html 
+html 
+    head 
+        title Pawan Travel Blog 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        style 
+            include ../static/style.css
+    body
+        nav#navbar 
+            ul 
+                li #[a(href ='/') Home]
+                li #[a(href ='/about') About]
+                li #[a(href ='/travel') Travel]
+                li #[a(href ='/eat') Eat]
+                li #[a(href ='/relax') Relax]
+            div.icon
+                a.logo(href ='https://www.facebook.com/profile.php?id=100051480540972' target="_blank") #[img(src="../static/img/fb.webp", alt="fb") ] 
+
+                a.logo(href ='https://www.instagram.com/__pawankumar12/' target="_blank") #[img(src="../static/img/insta.webp", alt="insta") ] 
+                
+                a.logo(href ='https://twitter.com/?lang=en' target="_blank") #[img(src="../static/img/twitter.webp", alt="twitter")] 
+        section#top
+            p.p.p1 Travel Blog 
+            h1.h1 Going Places 
+            p.p I haven't been everywhere, but it's on my list.
+        section#top1 
+            div.contain I'm a paragraph and here you can write your journey. 
+            div.contain Share your experience with other and thanks to come here.
+        section#top2 
+            div.block.block1 #[button Travel]           
+            div.block.block2 #[button Eat   ]        
+            div.block.block3 #[button Relax ]          
+
+        section#top3.mid 
+            img.image(src="../static/img/e.webp", alt="img")
+            h3 Silky Sands, Turquoise Surf 
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt doloribus, laboriosam in dignissimos illum, ratione, vero neque voluptates deleniti non modi.
+        section#top4.mid 
+            img.image(src="../static/img/e2.webp", alt="img")
+            h3 Essential Spa & Body treatments
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt doloribus, laboriosam in dignissimos illum, ratione, vero neque voluptates deleniti non modi.
+        section#top5.mid 
+            img.image(src="../static/img/e3.webp", alt="img")
+            h3 Top 5 Branches 
+            p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sunt doloribus, laboriosam in dignissimos illum, ratione, vero neque voluptates deleniti non modi.
+        section#top6 
+            div.spects
+                a.logo1(href ='https://www.facebook.com/profile.php?id=100051480540972' target="_blank")  #[img.image1(src="../static/img/fb.webp", alt="fb")]
+                div facebook
+            div.spects
+                a.logo1(href ='https://www.instagram.com/__pawankumar12/' target="_blank")  #[img.image1(src="../static/img/insta.webp", alt="insta")]
+                div instagram
+            div.spects    
+                a.logo1(href ='https://twitter.com/?lang=en' target="_blank")  #[img.image1(src="../static/img/twitter.webp", alt="twitter")] 
+                div twitter
+
+        section#top7 
+            img.image4(src="../static/img/bbg1.jpg", alt="img")
+            img.image4(src="../static/img/bbg2.jpg", alt="img")
+            img.image4(src="../static/img/bb3.jpg", alt="img")
+            img.image4(src="../static/img/bb4.jpg", alt="img")
+            img.image4(src="../static/img/bb5.jpg", alt="img")
+            img.image4(src="../static/img/bb6.jpg", alt="img")
+
+        section#top8 
+            div.top8
+                div.inner
+                    img.image5(src="../static/img/aboutme.webp", alt="")
+                    div.write
+                        h3 About Me 
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eos? Vitae atque ut ipsum ad! Maxime totam et, nemo omnis veniam culpa possimus inventore eum fugiat harum, repellat, soluta dignissimos ea porro architecto?
+                form(action="/", method="post" class="hello")
+                    h2.ad Join My Mailing List 
+                    div.ad Email* 
+                    input(type="email", class="ad email " name="email" placeholder="Enter your email")
+                    buttton(class="ad subscribe") Subscribe Now
+
+        section#top9 
+            div.rights © All rights are reserved 
+            div.upper #[a(href='#top') ^] 
+            div 
+                a.logo(href ='https://www.facebook.com/profile.php?id=100051480540972' target="_blank") #[img(src="../static/img/fb.webp", alt="fb") ] 
+
+                a.logo(href ='https://www.instagram.com/__pawankumar12/' target="_blank") #[img(src="../static/img/insta.webp", alt="insta") ] 
+                    
+                a.logo(href ='https://twitter.com/?lang=en' target="_blank") #[img(src="../static/img/twitter.webp", alt="twitter")] 
